@@ -17,3 +17,6 @@ json.items @pokemon.items do |item|
   json.happiness item.happiness
   json.image_url asset_path(item.image_url)
 end
+
+
+webpack react react-dom react-router-dom redux react-redux redux-logger babel-loader babel-core babel-preset-es2015 babel-preset-react lodash
