@@ -1,6 +1,6 @@
 class Api::PartiesController < ApplicationController
   def index
-    @parties = Party.all
+    @parties = Party.includes(:guests).all
     render :index
   end
 
