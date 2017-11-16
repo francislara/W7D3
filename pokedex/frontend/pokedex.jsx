@@ -5,6 +5,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { selectAllPokemon } from './reducers/selectors';
 import Root from './components/root';
+import { HashRouter, Route } from 'react-router-dom';
 
 document.addEventListener('DOMContentLoaded', () => {
   const rootEl = document.getElementById('root');
